@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Julian Richen -->
+<component type="desktop-application">
+    <id>org.winepak.BuildbotTest</id>
+    <launchable type="desktop-id">org.winepak.BuildbotTest.desktop</launchable>
+    <project_license>GPL-3.0</project_license>
+    <metadata_license>CC0-1.0</metadata_license>
+    <name>winepak Buildbot Test</name>
+    <summary>Test application for testing winepak's Buildbot</summary>
+    <description>
+        <p>An application made to test winepak's Buildbot builders.</p>
+    </description>
+    <categories>
+        <category>Utility</category>
+    </categories>
+    <content_rating type="oars-1.1" />
+    <url type="homepage">https://www.winepak.org/</url>
+    <url type="bugtracker">https://github.com/winepak/org.winepak.BuildbotTest</url>
+    <releases>
+        <release version="1.0.0" date="2019-03-24"/>
+    </releases>
+</component>
