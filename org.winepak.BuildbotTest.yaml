@@ -22,8 +22,18 @@ modules:
     build-commands:
       - install -d /app/bin
       - install winepak-buildbot-test /app/bin
+      - install -Dm644 org.winepak.BuildbotTest.appdata.xml /app/share/appdata/org.winepak.BuildbotTest.appdata.xml
+      - install -Dm644 org.winepak.BuildbotTest.desktop /app/share/applications/org.winepak.BuildbotTest.desktop
+      - install -Dm664 org.winepak.BuildbotTest.svg /app/share/icons/hicolor/scalable/apps/org.winepak.BuildbotTest.svg
     sources:
       - type: script
         dest-filename: winepak-buildbot-test
         commands:
           - echo "it works"
+          
+      - type: file
+        path: org.winepak.BuildbotTest.appdata.xml
+      - type: file
+        path: org.winepak.BuildbotTest.desktop
+      - type: file
+        path: org.winepak.BuildbotTest.svg

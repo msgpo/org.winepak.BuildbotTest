@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=winepak Buildbot Test
+Comment=Test application for testing winepak's Buildbot
+Exec=winepak-buildbot-test %U
+Icon=org.winepak.BuildbotTest
+StartupNotify=true
+Terminal=true
+Type=Application
+Categories=Utility
+Keywords=winepak;buildbot;
